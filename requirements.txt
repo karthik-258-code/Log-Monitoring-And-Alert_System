@@ -1,0 +1,5 @@
+# Requirements for Server Log Monitoring and Alert System
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0
+matplotlib>=3.0

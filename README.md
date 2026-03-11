@@ -2,7 +2,7 @@
 
 A beginner-to-intermediate Python project to read, parse, store, analyze, and alert on server log data.
 
-## 🚀 Features
+## Features
 
 - Reads common log formats (Apache access logs, system logs)
 - Parses log entries to extract timestamps, IP addresses, error codes, and messages
@@ -18,7 +18,7 @@ A beginner-to-intermediate Python project to read, parse, store, analyze, and al
 - Offers a simple CLI dashboard to query logs and view alerts
 - Generates alerts when suspicious patterns are detected
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 /log_monitor
@@ -41,7 +41,7 @@ README.md
 requirements.txt
 ```
 
-## ▶️ Getting Started
+## Getting Started
 
 1. Create a virtual environment and install dependencies:
 
@@ -71,10 +71,10 @@ python -m log_monitor.cli stats
 python -m log_monitor.cli alerts
 ```
 
-## 🧪 Sample Logs
+## Sample Logs
 
 The `logs/` folder contains example Apache and syslog entries for testing.
 
-## 🧩 Extending the Project
+## Extending the Project
 
 You can add additional parsers, integrate with real-time log streams, or build a small web dashboard with Flask.
